@@ -19,18 +19,19 @@ function doPost(e){
 }
 
 /*Add/Enable Apps that you need.*/
-//var Language = LanguageApp;
-//var Spreadsheet = SpreadsheetApp;
-//var Email = EmailApp;
-//var Gmail = GmailApp;
-//var Drive = DriveApp;
+//LanguageApp;
+//SpreadsheetApp;
+//EmailApp;
+//GmailApp;
+//DriveApp;
 
+Note : Even if you make a small chnage in code make sure to deploy a new vertion. And feel free to contact me if you have query or suggestion releted to these codes.
 /*End of adding apps to Engine*/
 
 function runCodes(e){
   var response = {"code":401,"msg":"data/code is not given","data":""};
   var client_data = e.parameter.data;
-  if(client_data !== undefined){
+  if(client_data !== undefined && client_data !==""){
     try{
        var output = eval(client_data);
        response["code"] = 200;
