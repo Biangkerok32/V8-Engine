@@ -18,16 +18,6 @@ function doPost(e){
    return ContentService.createTextOutput(JSON.stringify(def_response));
 }
 
-/*Add/Enable Apps that you need.*/
-//LanguageApp;
-//SpreadsheetApp;
-//EmailApp;
-//GmailApp;
-//DriveApp;
-
-Note : Even if you make a small chnage in code make sure to deploy a new vertion. And feel free to contact me if you have query or suggestion releted to these codes.
-/*End of adding apps to Engine*/
-
 function runCodes(e){
   var response = {"code":401,"msg":"data/code is not given","data":""};
   var client_data = e.parameter.data;
