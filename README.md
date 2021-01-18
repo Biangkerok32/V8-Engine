@@ -3,7 +3,7 @@ V8 Engine is a helper extension allows you to use google apps script and support
 
 In short you can manage all your google apps supported by google app script using the extension that i have made for MIT Appinventor and it's and its distributions like Niotron Kodular etc.. You can also use this in xThunkable using the API compoennt and also in your web-app made with python, nodeJS, PHP etc..
 
-I have made some blogs on https://ctricks.com and also few tutorial videos to show, How you can use this in your various projects. 
+I have made some blogs on https://cttricks.com and also few tutorial videos to show, How you can use this in your various projects. 
 If you have any query or suggestion feel free to contact me via email.. help.cttricks@gmail.com
 
 Enjoy!!
